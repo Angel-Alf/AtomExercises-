@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+
+    background-color: #3a3f45;
+
+}
+
+footer, header{
+    width: 100%;
+    background: #584b4f;
+    padding: 15px 40px 15px 40px;
+
+}
+
+
+
+
+
+nav{
+    text-align: center;
+  
+}
+
+
+header li, header div, header ul{
+    list-style: none;
+    font-size: px;
+    display: inline-flex;
+    padding: 2px 30px 2px 4px;
+    color: #efeae1;
+    text-decoration: none;
+}
+
+div{
+    padding: 0  0  0 20% ;
+    
+}
+
+header img{
+    width: 30px;
+    height: 20px;
+
+}
+
+.menu:hover, footer a:hover {
+
+    color: greenyellow;   
+    transition: all 300ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.picture1{
+
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start
+}
+
+.picture2{
+    width: 280px;
+    height: 400px;
+
+}
+
+
+.picture3{
+    width: 80px;
+    height: 50px;
+
+}
+
+.downloadmenu{
+    display: flex;
+    padding-top: 60px;
+    
+}
+
+.information-menu{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 280px;
+    height: 400px;
+    
+}
+
+.information ul, .information ul p{
+    display: block;
+    text-align: center;
+
+}
+
+.information-menu li{
+    font-size: 28px;
+    list-style: none;
+    padding: 30px 0 10px  0;
+    color: #efeae1;
+}
+
+.information-menu p{
+    font-size: 15px;
+
+}
+
+
+.foot a, .foot li{
+    text-decoration: none;
+    list-style: none;
+    color: #efeae1;
+    display: inline-flex;
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+}
+
+footer{
+    display: block;
+    color: #efeae1;
+    text-align: center;
+}
+.menufooter{
+    display: inline-flex;
+    padding: 0 20px 0 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
